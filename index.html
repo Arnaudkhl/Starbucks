@@ -1,0 +1,140 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>StarBucks</title>
+</head>
+<body>
+    <section >
+        <div class="circle"></div>
+    <header>
+        <a href="" class="logo"> <img src="/images/logo.png" alt="" ></a>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">What's New</a></li>
+            <li><a href=""> Contact</a></li>
+            <li><a href="#">Nos Cafés</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <div class="textBox">
+            <h2>It's not just coffee <br> It's <span> Starbucks</span></h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+               Dicta eligendi eum voluptate ut reprehenderit
+               quisquam amet a doloremque in, sequi, unde odio vitae 
+               labore architecto harum aperiam sed dolores iusto.</p>
+               <a href="#">Learn More</a>
+        </div>
+         <div class="imgBox">
+        <img src="./images/cafe.png"  class="starbucks" alt="café" >
+    </div>   
+    </div>
+   
+        <div class="minicafe">
+         <ul class="thumb">
+            <li><img src="/images/thumb1.png" onclick="imgSlider ('./images/cafe.png'); changeColor ('#017143')" alt=""></li>
+            <li><img src="/images/thumb2.png" onclick="imgSlider ('./images/cafe1.png'); changeColor ('#eb7495')" alt=""></li>
+            <li><img src="/images/thumb3.png" onclick="imgSlider ('./images/cafe2.png'); changeColor ('#d752b1')" alt=""></li>
+         </ul>
+        </div>
+        <div class="social">
+            <ul class="sci">
+                <li><a href="#"><img src="/images/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="/images/instagram.png" alt=""></a></li>
+                <li><a href="#"><img src="/images/twitter.png" alt=""></a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <div class="banner">
+     
+        <div class="text0">
+            <p>Avec le changement de saison viennent de nouvelles saveurs vives et audacieuses ! 🎃</p>
+           
+               
+        </div>
+    </div>
+
+    <section class="menu">
+       <div class="card1">
+        <img src="/images/1.jpg" class="buck1" alt="">
+        <div class="text1">
+            <h3>Tombez à portée de main</h3>
+            <p>Commander vos favoris d’automne est un jeu d’enfant avec l’application. Rejoignez Starbucks®
+                 Rewards et puisez dans l’automne.</p>
+            <a href="#" class="btn">Pour en savoir plus</a>
+        </div>
+       </div> 
+
+       <div class="card2">
+        
+        <div class="text1">
+            <h3>Tomber amoureux du chai</h3>
+            <p>Confortable jusqu’aux épices chaudes de Chai Tea Latte équilibrées avec du lait crémeux.</p>
+            <a href="#" class="btn">Pour en savoir plus</a>
+        </div>
+        <img src="/images/137-79281.jpg" class="buck1" alt="">
+       </div> 
+
+         <div class="card2">
+        <img src="/images/137-79282.jpg" class="buck1" alt="">
+        <div class="text1">
+            <h3>Bienvenue à la maison, citrouille</h3>
+            <p>Commander vos favoris d’automne est un jeu d’enfant avec l’application. Rejoignez Starbucks®
+                 Rewards et puisez dans l’automne.</p>
+            <a href="#" class="btn">Pour en savoir plus</a>
+        </div>
+       </div> 
+
+       <div class="card2">
+        
+        <div class="text1">
+            <h3>Tombez à portée de main</h3>
+            <p>Commander vos favoris d’automne est un jeu d’enfant avec l’application. Rejoignez Starbucks®
+                 Rewards et puisez dans l’automne.</p>
+            <a href="#" class="btn">Pour en savoir plus</a>
+        </div>
+        <img src="/images/137-79429.jpg" class="buck1" alt="">
+       </div> 
+
+       <div class="card2">
+        <img src="/images/137-79430.jpg" class="buck1" alt="">
+        <div class="text1">
+            <h3>Choix du patch</h3>
+            <p>Commander vos favoris d’automne est un jeu d’enfant avec l’application. Rejoignez Starbucks®
+                 Rewards et puisez dans l’automne.</p>
+            <a href="#" class="btn">Pour en savoir plus</a>
+        </div>
+       </div> 
+
+       <div class="card2">
+       
+        <div class="text1">
+            <h3>Tombez à portée de main</h3>
+            <p>Commander vos favoris d’automne est un jeu d’enfant avec l’application. Rejoignez Starbucks®
+                 Rewards et puisez dans l’automne.</p>
+            <a href="#" class="btn">Pour en savoir plus</a>
+        </div> 
+        <img src="/images/137-79283.jpg" class="buck1" alt="">
+       </div> 
+       </div> 
+    </section>
+    
+    <script type="text/javascript">
+      
+        
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src = anything;
+        }
+
+        function changeColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+</body>
+</html>
